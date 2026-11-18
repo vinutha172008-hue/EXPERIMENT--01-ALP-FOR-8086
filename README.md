@@ -127,7 +127,7 @@ ret
 Org 100h
 Mov ax, [1100h]
 Mov bx, [1102h]
-Mul bx
+div bx
 Mov [1200h], ax
 Mov [1202h], dx
 ret
